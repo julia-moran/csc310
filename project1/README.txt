@@ -12,3 +12,5 @@ Part 2 (LogMessages class)
 Complete the LogMessages class in the logmessages.js file. This class represents a list of log messages. 
 Each log message has a type, a logical timestamp, and the message text. The logical timestamp is an integer. 
 The types of messages are “I” for informational messages, “W” for warnings, and “E” for errors.
+
+This assignment also requires you to write at least one test.
