@@ -207,6 +207,8 @@ Examples:
 let rec pow x y =
     if y = 1 then
         x
+    else if y = 0 then
+        1
     else
         x * pow x (y - 1)
 
@@ -246,10 +248,10 @@ Examples:
     len 15949 = 5
 *)
 let rec len x =
-    if x < 10 then
+    if abs(x) < 10 then
         1
     else
-        1 + len(x / 10)
+        1 + len(abs(x) / 10)
 
 (****************************************************************************)
 (* Part 3: Lists *)
